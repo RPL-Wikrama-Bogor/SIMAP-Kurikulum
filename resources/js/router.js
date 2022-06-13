@@ -11,6 +11,7 @@ Vue.use(Router);
 //DEFINE ROUTE
 const router = new Router({
     mode: 'history',
+    base: '/SIMAP-Kurikulum/',
     routes: [
         {
             path: '/',

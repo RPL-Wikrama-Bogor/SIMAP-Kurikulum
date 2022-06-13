@@ -52,9 +52,9 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'http://10.20.30.100/SIMAP-Kurikulum'),
 
-    'asset_url' => env('ASSET_URL', null),
+    'asset_url' => env('ASSET_URL', 'http://10.20.30.100/SIMAP-Kurikulum'),
 
     /*
     |--------------------------------------------------------------------------

@@ -17,7 +17,7 @@ Vue.use(VueGoodTablePlugin);
 
 Vue.prototype.$http = axios;
 Vue.prototype.$http.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
-Vue.prototype.$http.defaults.headers.common['Accept'] = 'application/json';
+Vue.prototype.$http.defaults.headers.common['Accept'] = '*';
 axios.defaults.baseURL = window.location.origin + '/api';
 axios.defaults.withCredentials = true
 axios.interceptors.request.use(function(config) {
